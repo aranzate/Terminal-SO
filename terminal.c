@@ -27,7 +27,7 @@ void execArgs(char **parsedArgs);
 int main(void) {
     //inputString define o comando digitado pelo usuario, e parsedArgs constitui todos so comandos digitados
     char inputString[TAMANHO_MAXIMO_STRING], *parsedArgs[MAX_ARGS];
-    int execType;
+    int exec;
 
     char initPath[TAMANHO_MAXIMO_STRING] = "/home/";
     strcat(initPath, getenv("USER"));
@@ -40,10 +40,10 @@ int main(void) {
         if(!userInput(inputString)) {
             continue;
         }
-        //aqui e definido se o comando a ser executado utilizara o pipe '|'
-        execType = processarInput(inputString, parsedArgs);
+        
+        exec = processarInput(inputString, parsedArgs);
 
-        if (execType == 1) execArgs(parsedArgs);
+        if (exec == 1) execArgs(parsedArgs);
     }
     return 0;
 }
