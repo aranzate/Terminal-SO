@@ -1,6 +1,9 @@
 # Terminal-SO
-Terminal simples desenvolvido para a disciplina de SO, com o auxilio de um material da GeeksForGeeks
+Simple linux terminal, developed for an OS course assignment.
+Author: Rafael Rocha Aranzate
+Based on this tutorial: https://www.geeksforgeeks.org/making-linux-shell-c/
 
+----------------------------------------------------------------------------------------------------
+Terminal simples desenvolvido para a disciplina de SO.
 Autor: Rafael Rocha Aranzate
-
-Material de Auxílio: https://www.geeksforgeeks.org/making-linux-shell-c/
+Material utilizado como base: https://www.geeksforgeeks.org/making-linux-shell-c/
